@@ -1,4 +1,4 @@
-import snap
+import snap 
 from py2neo import Graph, Path ,Node,Relationship,authenticate
 
 #authentication of neo4j for phyton 
