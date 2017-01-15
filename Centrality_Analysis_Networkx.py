@@ -1,4 +1,4 @@
-import networkx as nx 
+import networkx as nx  
 import matplotlib.pyplot as plt
 from py2neo import Graph, Path ,Node,Relationship,authenticate
 
