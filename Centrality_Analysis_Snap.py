@@ -1,7 +1,7 @@
 import snap
 from py2neo import Graph, Path ,Node,Relationship,authenticate
 
-#authentication of neo4j for phyton
+#authentication of neo4j for phyton 
 authenticate("localhost:7474", "neo4j", "123456")
 graph = Graph("http://localhost:7474/db/data/")
 tx = graph.cypher.begin()
